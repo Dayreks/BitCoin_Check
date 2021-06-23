@@ -1,0 +1,35 @@
+{
+  "name": "bitcoin-web-api",
+  "version": "1.0.0",
+  "description": "A web API that helps to find out bitcoin rate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dayreks/BitCoin_Web_API.git"
+  },
+  "author": "Bohdan Arkhypchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dayreks/BitCoin_Web_API/issues"
+  },
+  "homepage": "https://github.com/Dayreks/BitCoin_Web_API#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "currency-converter-lt": "^1.1.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "nodejs-currency-converter": "^1.0.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
