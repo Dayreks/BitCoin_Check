@@ -6,5 +6,9 @@
     {
         "email": "test1@gmail.com",
         "password": "$2b$10$X1uZslyLOC7oqTW4PECOVOdsurqAcCEImosQCDJsXssgwE12SzO/i"
+    },
+    {
+        "email": "test2@gmail.com",
+        "password": "$2b$10$.NuAxzyhDFwONf.otnycd.O24McZJrDMur6eG2w7Wwa.LCOu..WTG"
     }
 ]

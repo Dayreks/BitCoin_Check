@@ -7,18 +7,6 @@ const jwt = require('jsonwebtoken');
 const fs = require('fs');
 var exist = new Boolean(false);
 
-
-router.get('/', (req, res, next) => {
-    fs.readFile('./users.json', 'utf8', (err, data) => {
-        if (err) {
-            console.log(`Error reading file from disk: ${err}`);
-        } else {
-            const users = JSON.parse(data);
-            res.status(200).json(users)
-        }
-    });
-})
-
 router.post('/create', (req, res, next) => {
     exist = false;
     fs.readFile('./users.json', 'utf8', (err, data) => {
@@ -123,10 +111,6 @@ router.post('/login', (req, res, next) => {
         }
     });
 });
-
-router.delete('/userEmail', (req, res, next) => {
-    res.status(200).json()
-})
 
 
 function validateEmail(email) {
